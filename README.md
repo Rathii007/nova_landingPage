@@ -10,7 +10,11 @@ This project was developed as a front-end development assignment to demonstrate 
 
 ## 🚀 Live Demo
 
+<<<<<<< HEAD
 **Live Demo:** `https://nova-jade-sigma.vercel.app/`
+=======
+**Live Demo:** `https://YOUR-VERCEL-URL.vercel.app`
+>>>>>>> a479632e6f237a8910dd202b7af7350e3feb085e
 
 > Replace the URL above with the deployed Vercel/Netlify URL after deployment.
 
