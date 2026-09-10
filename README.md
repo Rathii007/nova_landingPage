@@ -4,27 +4,21 @@
 
 NOVA is a modern AI-powered productivity platform designed to help teams manage projects, automate repetitive workflows, and collaborate more efficiently.
 
-This project was developed as a front-end development assignment to demonstrate modern UI/UX design, responsive web development, React component architecture, interactive functionality, and accessibility practices.
+This project was developed as a Front-End Development Assignment to demonstrate modern UI/UX design, responsive web development, React component architecture, interactive functionality, accessibility practices, and responsive behavior across desktop, tablet, and mobile devices.
 
 ---
 
 ## 🚀 Live Demo
 
-<<<<<<< HEAD
-**Live Demo:** `https://nova-jade-sigma.vercel.app/`
-=======
-**Live Demo:** `https://YOUR-VERCEL-URL.vercel.app`
->>>>>>> a479632e6f237a8910dd202b7af7350e3feb085e
-
-> Replace the URL above with the deployed Vercel/Netlify URL after deployment.
+**Live Demo:** https://nova-jade-sigma.vercel.app/
 
 ## 📂 GitHub Repository
 
-**Repository:** `https://github.com/Rathii007/nova_landingPage`
+**Repository:** https://github.com/Rathii007/nova_landingPage
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 The landing page includes all required sections from the assignment:
 
@@ -32,14 +26,14 @@ The landing page includes all required sections from the assignment:
 * Mobile hamburger navigation
 * Hero section with primary CTA
 * Trusted-by company logos
-* Feature section with 6+ features
+* Features section with 6+ features
 * Product / About section
 * How It Works section
 * Statistics section
 * Solutions / Use Cases
-* Testimonial section with 3+ testimonials
-* Pricing section with 3 pricing plans
-* FAQ section with 5+ questions
+* Testimonials with 3+ testimonials
+* Pricing with 3 pricing plans
+* FAQ with 5+ questions
 * Final CTA
 * Footer
 * Newsletter signup validation
@@ -49,7 +43,7 @@ The landing page includes all required sections from the assignment:
 * Smooth scrolling navigation
 * Responsive mobile menu
 * FAQ accordion
-* Button hover animations
+* Button hover effects
 * Feature and pricing card hover effects
 * Light / dark mode
 * Monthly / annual pricing toggle
@@ -62,23 +56,15 @@ The landing page includes all required sections from the assignment:
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 ### Frontend
 
-* **React**
-* **Vite**
-* **JavaScript (ES6+)**
-* **HTML5**
-* **CSS3**
-
-### UI / Design
-
-* Responsive CSS
-* CSS animations and transitions
-* Modern card-based UI
-* Semantic HTML
-* Responsive layout techniques
+* React
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
 ### Development Tools
 
@@ -89,38 +75,36 @@ The landing page includes all required sections from the assignment:
 
 ### AI-Assisted Development
 
-AI tools were used during development for brainstorming, implementation assistance, debugging, content generation, and code review.
-
 * ChatGPT
 
-AI-generated code was reviewed, modified, tested, and integrated manually rather than being submitted without understanding the implementation.
+AI was used as a development assistant for brainstorming, implementation support, debugging, content development, documentation, and reviewing possible improvements. The generated output was reviewed and adapted to the project requirements rather than being blindly copied.
 
 ---
 
-# 📦 Installation
+## 📦 Installation
 
-## Prerequisites
+### Prerequisites
 
-Make sure you have the following installed:
+Make sure you have:
 
 * Node.js 18+
 * npm
 * Git
 
-## Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Rathii007/nova_landingPage.git
 cd nova_landingPage
 ```
 
-## Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-## Start the development server
+### Start the development server
 
 ```bash
 npm run dev
@@ -132,13 +116,13 @@ The application will normally be available at:
 http://localhost:5173
 ```
 
-## Create a production build
+### Create a production build
 
 ```bash
 npm run build
 ```
 
-## Preview the production build
+### Preview the production build
 
 ```bash
 npm run preview
@@ -146,9 +130,7 @@ npm run preview
 
 ---
 
-# 🖼️ Screenshots
-
-Add screenshots of the application here after deployment.
+## 🖼️ Screenshots
 
 ### Desktop
 
@@ -162,53 +144,35 @@ Add screenshots of the application here after deployment.
 
 ![NOVA Mobile Screenshot](./screenshots/mobile.png)
 
-> Create a `screenshots` folder in the repository and add the corresponding images.
-
 ---
 
-# 🧩 Component Structure
+## 🧩 Project Structure
 
-The application uses reusable React components to keep the UI modular and maintainable.
-
-A simplified structure is:
+The project follows a simple React + Vite structure:
 
 ```text
-src/
-├── main.jsx
-├── styles.css
-└── components/
-    ├── Navbar
-    ├── Hero
-    ├── TrustedBy
-    ├── Features
-    ├── Product
-    ├── HowItWorks
-    ├── Statistics
-    ├── Solutions
-    ├── Testimonials
-    ├── Pricing
-    ├── FAQ
-    ├── CTA
-    └── Footer
+nova_landingPage/
+├── screenshots/
+│   ├── desktop.png
+│   ├── tablet.png
+│   └── mobile.png
+├── src/
+│   ├── main.jsx
+│   └── styles.css
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
-The page is divided into independent UI sections rather than placing the entire interface into one large component.
+The main React entry point contains the page sections and interaction logic, while `styles.css` contains the responsive layout, visual styling, animations, and component states.
 
-Repeated content such as:
-
-* Features
-* Pricing plans
-* Testimonials
-* FAQs
-* Solutions
-
-can be represented using JavaScript data structures and rendered dynamically.
-
-This reduces duplication and makes future content changes easier.
+Repeated UI content such as features, testimonials, pricing plans, and FAQs is organized so that it can be maintained without unnecessary duplication.
 
 ---
 
-# 🎨 Design Decisions
+## 🎨 Design Decisions
 
 The design follows a modern SaaS/productivity-platform visual language.
 
@@ -216,25 +180,25 @@ The design follows a modern SaaS/productivity-platform visual language.
 
 The interface uses:
 
-* Large typography for strong hierarchy
+* Large typography for clear visual hierarchy
 * Rounded cards and containers
 * Generous spacing
-* Clear CTA buttons
-* Subtle shadows and borders
+* Strong but focused CTA buttons
+* Subtle borders and shadows
 * Smooth transitions and hover states
-* Responsive layouts for different screen sizes
+* Responsive grid and flex layouts
 
-The goal was to make NOVA feel like a real commercial SaaS product rather than a basic tutorial landing page.
+The objective was to make NOVA feel like a professional commercial SaaS product rather than a basic tutorial landing page.
 
-### Color and Branding
+### Branding
 
-The NOVA identity uses a clean modern palette with strong accent colors for CTAs and interactive elements.
+NOVA uses a clean, technology-focused visual identity with accent colors used primarily for CTAs, highlights, and interactive elements.
 
-Dark/light mode was also included to provide an additional layer of customization and improve usability across different viewing preferences.
+The addition of light/dark mode gives the interface more flexibility while maintaining consistent hierarchy and contrast.
 
 ### User Experience
 
-The page follows a clear visual flow:
+The page follows a deliberate conversion-oriented flow:
 
 ```text
 Navigation
@@ -264,66 +228,73 @@ Final CTA
 Footer
 ```
 
-This structure takes the visitor from awareness → product understanding → social proof → pricing → conversion.
+This structure takes the user from awareness and product understanding through social proof and pricing toward conversion.
 
 ---
 
-# ⚛️ Technology Choice
+## ⚛️ Technology Choice
 
-## Why React?
+### Why React?
 
-React was selected because the assignment specifically recommends it and because it is well suited for building component-based interfaces.
+React was selected because it is specifically recommended by the assignment and is well suited to interactive, component-based user interfaces.
 
-React makes it easier to:
+React provides a clean way to:
 
-* Break the interface into reusable components
 * Manage interactive UI state
+* Reuse UI patterns
 * Render repeated content from data
-* Maintain a clean component hierarchy
-* Extend the application into a larger product later
+* Keep related logic close to the UI it controls
+* Extend a static landing page into a larger application
 
-For example, the FAQ section can maintain an active question state rather than relying on separate duplicated JavaScript logic for every question.
+The FAQ accordion, pricing toggle, navigation menu, testimonial carousel, theme toggle, and modal all benefit from React state and event handling.
 
-## Why Vite?
+### Why Vite?
 
-Vite provides:
+Vite was chosen because it provides:
 
 * Fast development startup
 * Fast Hot Module Replacement
 * Simple React configuration
 * Efficient production builds
-* Minimal project setup
+* Minimal project overhead
 
-For a front-end assignment focused on a single-page application, React + Vite provides a lightweight and modern development environment.
+React + Vite is therefore a lightweight and modern choice for this single-page front-end project.
 
 ---
 
-# 📱 Responsive Design
+## 📱 Responsive Design
 
-The application was designed to work across:
+The application is designed for:
 
 * Desktop
 * Laptop
 * Tablet
 * Mobile
 
-Responsive layouts are implemented using CSS media queries, flexible containers, responsive typography, and adaptable grid layouts.
+Responsive behavior is implemented using:
 
-The navigation also changes behavior on smaller screens by switching to a hamburger menu.
+* CSS media queries
+* Flexible containers
+* Responsive typography
+* Grid and flex layouts
+* Mobile-specific navigation behavior
+* Fluid spacing and sizing
 
 Care was taken to prevent:
 
 * Horizontal scrolling
-* Overlapping sections
-* Fixed-width elements breaking mobile layouts
+* Overlapping elements
+* Fixed-width content breaking smaller screens
 * Text overflow
 * Unusable touch targets
 
+The mobile navigation switches from the desktop menu to a hamburger menu at smaller viewport widths.
+
 ---
 
-# ♿ Accessibility
+## ♿ Accessibility
 
-Basic accessibility practices were incorporated throughout the interface.
+Basic accessibility practices were considered throughout the interface.
 
 Examples include:
 
@@ -335,143 +306,142 @@ Examples include:
 * Accessible navigation controls
 * Form labels and validation feedback
 
-The application can be further improved with additional ARIA attributes, comprehensive keyboard testing, and automated accessibility auditing.
+Further production improvements could include a full WCAG audit, more extensive ARIA testing where appropriate, automated accessibility testing, and broader keyboard interaction testing.
 
 ---
 
-# ⚙️ Interactive Functionality
+## ⚙️ Interactive Functionality
 
-## Mobile Navigation
+### Mobile Navigation
 
 On smaller screens, the desktop navigation is replaced with a hamburger menu.
 
-The menu visibility is controlled through React state, allowing the navigation to open and close without reloading the page.
+The menu state is controlled in React, allowing the navigation to open and close without reloading the page.
 
-## FAQ Accordion
+### FAQ Accordion
 
-Each FAQ item can be expanded and collapsed.
+FAQ items can be expanded and collapsed interactively.
 
-The selected FAQ is tracked using component state, allowing only the relevant answer to be displayed while keeping the interface compact.
+The currently active FAQ is tracked through component state so users can quickly access the answer they need.
 
-## Pricing Toggle
+### Pricing Toggle
 
 The pricing section supports monthly and annual billing.
 
-Changing the billing option updates the displayed pricing dynamically rather than requiring separate pages.
+Switching the billing period updates the displayed prices dynamically.
 
-## Testimonial Carousel
+### Testimonial Carousel
 
-Testimonials can be navigated interactively, allowing multiple customer quotes to be displayed within the same section.
+Users can navigate through multiple customer testimonials within the same section.
 
-## Demo Modal
+### Demo Modal
 
-The primary demo CTA opens a modal interaction rather than redirecting to a non-existent product page.
+The main demo CTA opens an interactive modal instead of linking to a non-existent product page.
 
-## Dark / Light Mode
+### Dark / Light Mode
 
-The interface supports switching between light and dark visual themes.
+Users can switch between light and dark themes without reloading the application.
 
-The theme is applied dynamically to the page without requiring a refresh.
+### Scroll Animations
 
----
+Sections use reveal animations as they enter the viewport to make the page feel more dynamic while keeping the interface clean.
 
-# 🧠 Challenges Faced
+### Newsletter Validation
 
-One of the main challenges was balancing a large number of required sections with a coherent visual hierarchy.
+The newsletter form validates user input before showing a successful submission state.
 
-Simply adding every required section could easily result in a long, repetitive landing page. To address this, sections were grouped into a logical conversion flow and given different visual treatments.
+### Back-to-Top Button
 
-Another challenge was ensuring that interactions such as:
-
-* Navigation
-* Accordion controls
-* Pricing toggle
-* Modal
-* Carousel
-* Theme switching
-
-worked together without making the interface feel overly complicated.
-
-Responsive behavior was also considered from the beginning rather than treating mobile support as an afterthought.
+A back-to-top control appears after scrolling so users can quickly return to the beginning of the page.
 
 ---
 
-# 🤖 How AI Tools Were Used
+## 🧠 Challenges Faced
 
-AI tools were used as development assistants throughout the project.
+One of the main challenges was balancing all required assignment sections while maintaining a coherent visual hierarchy.
 
-ChatGPT was used for:
+Adding every required section without a clear structure could make the page feel repetitive. The sections were therefore organized into a logical product and conversion flow, with different layouts and visual treatments used to maintain variety.
 
-* Initial UI/UX brainstorming
+Another challenge was integrating multiple interactive features without making the interface feel unnecessarily complicated. Navigation, FAQ state, pricing state, modal state, carousel behavior, theme switching, and scroll interactions were designed to remain independent and understandable.
+
+Responsive behavior was considered from the beginning so that desktop designs did not have to be rebuilt from scratch for mobile.
+
+---
+
+## 🤖 How AI Tools Were Used
+
+ChatGPT was used as a development assistant throughout the project.
+
+It supported:
+
+* UI/UX brainstorming
 * Landing-page content ideas
-* Component planning
+* Component and interaction planning
 * React implementation assistance
 * CSS implementation assistance
 * Debugging and troubleshooting
-* README/documentation preparation
-* Reviewing possible improvements to accessibility and responsiveness
+* Documentation and README preparation
+* Reviewing accessibility and responsive-design considerations
 
-The generated suggestions were not blindly copied.
+AI-generated suggestions were reviewed and adapted to the assignment rather than being submitted without understanding the implementation.
 
-The implementation was reviewed and adapted to the requirements of the assignment, and the developer should be able to explain the React state management, component structure, responsive CSS, and interactive functionality used in the project.
-
-AI was treated as a productivity tool rather than a replacement for understanding the code.
+The final implementation was checked against the required sections, interactions, responsive behavior, and code-organization requirements.
 
 ---
 
-# 📈 Performance Considerations
+## 📈 Performance Considerations
 
-The application is a lightweight front-end project with no large backend dependencies.
+The project is a lightweight front-end landing page with no large backend dependencies.
 
 Performance considerations include:
 
 * Minimal external dependencies
-* Reusable components
+* Reusable UI patterns
 * CSS-based animations
 * Responsive layouts
 * Avoiding unnecessary DOM complexity
 * Vite production bundling
 
-For a production version, additional improvements could include:
+For a production release, the project could be further optimized through:
 
-* Image optimization
-* Lazy loading
-* Code splitting
+* Image compression and modern image formats
+* Lazy loading for below-the-fold media
+* Code splitting where appropriate
 * Asset compression
-* Lighthouse performance monitoring
-* Further reduction of unused CSS/JavaScript
+* Lighthouse performance audits
+* Further reduction of unused CSS and JavaScript
 
 ---
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 A production version of NOVA could be extended with:
 
-* Real authentication
+* User authentication
 * User dashboards
 * Project management functionality
-* AI task automation
+* AI-powered task automation
 * Real-time collaboration
 * Backend APIs
 * Database integration
 * Payment processing
 * Real newsletter backend
-* Analytics
-* Accessibility auditing and WCAG compliance improvements
+* Product analytics
+* Comprehensive accessibility testing
 
-The current landing page provides the front-end foundation for such a product.
+The current project provides the front-end foundation for such a product.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Mayank Rathi**
 
-GitHub: [@Rathii007](https://github.com/Rathii007)
+GitHub: https://github.com/Rathii007
 
 ---
 
-# 📄 Assignment
+## 📄 Assignment
 
 This project was created as part of a Front-End Development Assignment focused on:
 
